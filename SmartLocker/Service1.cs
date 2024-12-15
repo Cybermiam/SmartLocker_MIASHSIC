@@ -4,6 +4,7 @@ using System.Timers;
 using System.Linq;
 using System.Collections.Generic;
 using System;
+using System.Text;
 
 namespace SmartLocker
 {
@@ -22,8 +23,9 @@ namespace SmartLocker
         {
             EventLog.WriteEntry("Parental Control Service Started");
 
+            // Start a timer with a 10-second interval
             timer = new Timer();
-            timer.Interval = 60000; // Check every minute
+            timer.Interval = 10000; // 10 seconds
             timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
             timer.Start();
         }
@@ -36,19 +38,50 @@ namespace SmartLocker
 
         private void OnTimer(object sender, ElapsedEventArgs e)
         {
-            string[] blockedApps = { "notepad", "calc" }; // Example blocked applications
-            MonitorProcesses();
-            BlockApplications(blockedApps);
-            MonitorAndLimitUsage();
+            // Close the notepad application
+            CloseNotepad();
         }
 
-        private void MonitorProcesses()
+        private void CloseNotepad()
         {
-            Process[] processList = Process.GetProcesses();
+            Process[] processList = Process.GetProcessesByName("notepad");
             foreach (Process process in processList)
             {
-                Console.WriteLine($"Process: {process.ProcessName} ID: {process.Id}");
+                try
+                {
+                    process.Kill();
+                    EventLog.WriteEntry($"Closed application: {process.ProcessName}");
+                }
+                catch (Exception ex)
+                {
+                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
+                }
             }
+        }
+
+        public string MonitorProcesses()
+        {
+            Process[] processList = Process.GetProcesses();
+            StringBuilder processInfo = new StringBuilder();
+            foreach (Process process in processList)
+            {
+                processInfo.AppendLine($"Process: {process.ProcessName} ID: {process.Id}");
+            }
+            return processInfo.ToString();
+        }
+
+        public string MonitorApplications()
+        {
+            Process[] processList = Process.GetProcesses();
+            StringBuilder appInfo = new StringBuilder();
+            foreach (Process process in processList)
+            {
+                if (!string.IsNullOrEmpty(process.MainWindowTitle))
+                {
+                    appInfo.AppendLine($"Application: {process.ProcessName} Title: {process.MainWindowTitle} ID: {process.Id}");
+                }
+            }
+            return appInfo.ToString();
         }
 
         private void BlockApplications(string[] blockedApps)

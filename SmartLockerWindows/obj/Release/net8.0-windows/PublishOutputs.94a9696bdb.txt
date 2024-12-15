@@ -1,0 +1,13 @@
+C:\Users\thecy\Desktop\SmartLocker\SmartLockerWindows.exe
+C:\Users\thecy\Desktop\SmartLocker\SmartLockerWindows.dll
+C:\Users\thecy\Desktop\SmartLocker\SmartLockerWindows.deps.json
+C:\Users\thecy\Desktop\SmartLocker\SmartLockerWindows.runtimeconfig.json
+C:\Users\thecy\Desktop\SmartLocker\SmartLockerWindows.pdb
+C:\Users\thecy\Desktop\SmartLocker\System.Diagnostics.EventLog.dll
+C:\Users\thecy\Desktop\SmartLocker\System.ServiceProcess.ServiceController.dll
+C:\Users\thecy\Desktop\SmartLocker\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\thecy\Desktop\SmartLocker\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\thecy\Desktop\SmartLocker\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll
+C:\Users\thecy\Desktop\SmartLocker\SmartLocker.exe
+C:\Users\thecy\Desktop\SmartLocker\SmartLocker.pdb
+C:\Users\thecy\Desktop\SmartLocker\SmartLocker.exe.config
