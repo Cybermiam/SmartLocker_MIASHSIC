@@ -1,0 +1,10 @@
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Release\SmartLocker.exe.config
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Release\SmartLocker.exe
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Release\SmartLocker.pdb
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.csproj.AssemblyReference.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\ProjectInstaller.resources
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.Service1.resources
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.csproj.GenerateResource.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.csproj.CoreCompileInputs.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.exe
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Release\SmartLocker.pdb
