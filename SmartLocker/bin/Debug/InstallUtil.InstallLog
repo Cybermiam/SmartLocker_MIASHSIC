@@ -231,3 +231,135 @@ The file is located at C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\D
 The Commit phase completed successfully.
 
 The transacted install has completed.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+Une exception s'est produite lors de la phase d'installation.
+System.Security.SecurityException: La source est introuvable mais certains ou l'ensemble des journaux des événements n'ont pas pu faire l'objet d'une recherche. Journaux inaccessibles : Security.
+
+La phase de restauration de l'installation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de restauration est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase d'installation est terminée et la phase de validation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de validation est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+Une exception s'est produite lors de la phase d'installation.
+System.ComponentModel.Win32Exception: Le service spécifié existe déjà
+
+La phase de restauration de l'installation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de restauration est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+
+La désinstallation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La désinstallation est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase d'installation est terminée et la phase de validation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de validation est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+
+La désinstallation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La désinstallation est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase d'installation est terminée et la phase de validation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de validation est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+
+La désinstallation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La désinstallation est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase d'installation est terminée et la phase de validation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de validation est terminée.
+
+L'installation traitée avec transaction est terminée.
+
+
+La désinstallation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La désinstallation est terminée.
+
+Exécution d'une installation traitée avec transaction.
+
+Début de la phase d'installation de l'installation.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase d'installation est terminée et la phase de validation a commencé.
+Consultez le contenu du fichier journal pour l'avancement de l'assembly C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe.
+Le fichier se trouve à C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog.
+
+La phase de validation est terminée.
+
+L'installation traitée avec transaction est terminée.

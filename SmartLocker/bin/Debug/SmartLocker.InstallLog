@@ -227,3 +227,129 @@ Affected parameters are:
    logtoconsole = 
    logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
    assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Création d'une source EventLog YourServiceName dans le journal Application...
+Restauration de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Restauration de l'état précédent du journal des événements pour la source YourServiceName.
+Une exception s'est produite lors de la phase de restauration du programme d'installation System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: La source est introuvable mais certains ou l'ensemble des journaux des événements n'ont pas pu faire l'objet d'une recherche. Journaux inaccessibles : Security.
+Une exception s'est produite lors de la phase de restauration de l'installation. Cette exception est ignorée et la restauration se poursuit. Cependant, l'ordinateur ne sera pas totalement restauré à son état initial à la fin de la restauration.
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Le service YourServiceName a été installé avec succès.
+Création d'une source EventLog YourServiceName dans le journal Application...
+Validation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Création d'une source EventLog YourServiceName dans le journal Application...
+Restauration de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Restauration de l'état précédent du journal des événements pour la source YourServiceName.
+Désinstallation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Suppression de la source EventLog YourServiceName.
+Le service YourServiceName est en cours de suppression du système...
+Le service YourServiceName a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Le service YourServiceName a été installé avec succès.
+Création d'une source EventLog YourServiceName dans le journal Application...
+Validation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Désinstallation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Suppression de la source EventLog YourServiceName.
+Le service YourServiceName est en cours de suppression du système...
+Le service YourServiceName a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Le service YourServiceName a été installé avec succès.
+Création d'une source EventLog YourServiceName dans le journal Application...
+Validation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Désinstallation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Suppression de la source EventLog YourServiceName.
+Le service YourServiceName est en cours de suppression du système...
+Le service YourServiceName a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service YourServiceName en cours...
+Le service YourServiceName a été installé avec succès.
+Création d'une source EventLog YourServiceName dans le journal Application...
+Validation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Désinstallation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Suppression de la source EventLog YourServiceName.
+Le service YourServiceName est en cours de suppression du système...
+Le service YourServiceName a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Installation du service SmartLocker en cours...
+Le service SmartLocker a été installé avec succès.
+Création d'une source EventLog SmartLocker dans le journal Application...
+Validation de l'assembly 'C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe

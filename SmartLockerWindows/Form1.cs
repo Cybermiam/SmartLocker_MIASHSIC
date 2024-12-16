@@ -38,12 +38,12 @@ namespace SmartLockerWindows
 
         private void btnStartService_Click(object sender, EventArgs e)
         {
+
             try
             {
                 if (serviceController != null && serviceController.Status != ServiceControllerStatus.Running)
                 {
                     service1.StartInteractive(); // Start the service interactively
-                    serviceController.WaitForStatus(ServiceControllerStatus.Running);
                     MessageBox.Show("Service démarré avec succès.");
                 }
             }
@@ -60,7 +60,6 @@ namespace SmartLockerWindows
                 if (serviceController != null && serviceController.Status != ServiceControllerStatus.Stopped)
                 {
                     service1.StopInteractive(); // Stop the service interactively
-                    serviceController.WaitForStatus(ServiceControllerStatus.Stopped);
                     MessageBox.Show("Service arrêté avec succès.");
                 }
             }

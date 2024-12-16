@@ -28,7 +28,7 @@ public partial class ProjectInstaller : Installer
         // 
         // serviceInstaller1
         // 
-        this.serviceInstaller1.ServiceName = "YourServiceName";
+        this.serviceInstaller1.ServiceName = "SmartLocker";
         this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
 
         // 

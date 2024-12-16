@@ -42,7 +42,7 @@ namespace SmartLocker
             CloseNotepad();
         }
 
-        private void CloseNotepad()
+        public void CloseNotepad()
         {
             Process[] processList = Process.GetProcessesByName("notepad");
             foreach (Process process in processList)
