@@ -5,6 +5,7 @@ namespace SmartLockerWindows
 {
     public class DataService
     {
+        // Fonctions pour la classe Utilisateur
         public void AjouterUtilisateur(string name, bool role)
         {
             using (var context = new AppDbContext())
@@ -28,6 +29,19 @@ namespace SmartLockerWindows
             using (var context = new AppDbContext())
             {
                 return context.Utilisateurs.ToList();
+            }
+        }
+
+        public void SupprimerUtilisateur(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var utilisateur = context.Utilisateurs.FirstOrDefault(u => u.Id == id);
+                if (utilisateur != null)
+                {
+                    context.Utilisateurs.Remove(utilisateur);
+                    context.SaveChanges();
+                }
             }
         }
 
@@ -58,6 +72,19 @@ namespace SmartLockerWindows
             }
         }
 
+        public void SupprimerApp(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var app = context.Apps.FirstOrDefault(a => a.Id == id);
+                if (app != null)
+                {
+                    context.Apps.Remove(app);
+                    context.SaveChanges();
+                }
+            }
+        }
+
         // Fonctions pour la classe StatistiquesUtilisation
         public void AjouterStatistiquesUtilisation(int utilisateurId, int appId, DateTime date, int duree)
         {
@@ -82,6 +109,19 @@ namespace SmartLockerWindows
             using (var context = new AppDbContext())
             {
                 return context.StatistiquesUtilisations.ToList();
+            }
+        }
+
+        public void SupprimerStatistiquesUtilisation(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var stats = context.StatistiquesUtilisations.FirstOrDefault(s => s.Id == id);
+                if (stats != null)
+                {
+                    context.StatistiquesUtilisations.Remove(stats);
+                    context.SaveChanges();
+                }
             }
         }
 
@@ -112,6 +152,19 @@ namespace SmartLockerWindows
             }
         }
 
+        public void SupprimerContrainteHoraire(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var contrainte = context.ContrainteHoraires.FirstOrDefault(c => c.Id == id);
+                if (contrainte != null)
+                {
+                    context.ContrainteHoraires.Remove(contrainte);
+                    context.SaveChanges();
+                }
+            }
+        }
+
         // Fonctions pour la classe ContrainteJour
         public void AjouterContrainteJour(ContrainteJour cr)
         {
@@ -136,6 +189,19 @@ namespace SmartLockerWindows
             using (var context = new AppDbContext())
             {
                 return context.ContrainteJours.ToList();
+            }
+        }
+
+        public void SupprimerContrainteJour(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var contrainte = context.ContrainteJours.FirstOrDefault(c => c.Id == id);
+                if (contrainte != null)
+                {
+                    context.ContrainteJours.Remove(contrainte);
+                    context.SaveChanges();
+                }
             }
         }
 
@@ -165,5 +231,28 @@ namespace SmartLockerWindows
                 return context.ContrainteSemaines.ToList();
             }
         }
+
+        public void SupprimerContrainteSemaine(int id)
+        {
+            using (var context = new AppDbContext())
+            {
+                var contrainte = context.ContrainteSemaines.FirstOrDefault(c => c.Id == id);
+                if (contrainte != null)
+                {
+                    context.ContrainteSemaines.Remove(contrainte);
+                    context.SaveChanges();
+                }
+            }
+        }
+        public void deleteAll()
+        {
+            using (var context = new AppDbContext())
+            {
+                context.Database.EnsureDeleted();
+                context.Database.EnsureCreated();
+            }
+        }
     }
+
+    
 }

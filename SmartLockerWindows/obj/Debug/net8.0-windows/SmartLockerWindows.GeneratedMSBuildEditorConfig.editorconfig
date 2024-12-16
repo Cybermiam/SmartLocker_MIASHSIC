@@ -22,6 +22,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SmartLockerWindows
-build_property.ProjectDir = c:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLockerWindows\
+build_property.ProjectDir = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLockerWindows\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
