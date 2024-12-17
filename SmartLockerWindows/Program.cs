@@ -13,8 +13,6 @@ namespace SmartLockerWindows
         static void Main()
         {
             DataService dataService = new DataService();
-            dataService.AjouterUtilisateur("admin", true);
-            dataService.AjouterUtilisateur("user", false);
             List<Utilisateur> users = dataService.ObtenirTousLesUtilisateurs();
             String usersString = "";
             for (int i = 0; i < users.Count; i++)
@@ -23,7 +21,7 @@ namespace SmartLockerWindows
             }
             MessageBox.Show("utilisateurs avant suppression : "+ usersString);
 
-            dataService.deleteAll();
+            
             users = dataService.ObtenirTousLesUtilisateurs();
             usersString = "";
             for (int i = 0; i < users.Count; i++)
