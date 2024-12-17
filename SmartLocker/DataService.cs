@@ -9,9 +9,6 @@ using System.Threading.Tasks;
 namespace SmartLocker
 {
 
-
-
-
     internal class DataService
     {
         private EventLog eventLog;
@@ -81,6 +78,7 @@ namespace SmartLocker
                 eventLog.WriteEntry($"Error in addUtilisateur: {ex.Message}", EventLogEntryType.Error);
             }
         }
+
 
         public void addApp(String name)
         {
