@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartLockerData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c46bdd0ac0b520e6cd86866137f90cd1d3911ea7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb5e78ad53c85084568fcd27d848bb31ed29021f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartLockerData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartLockerData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

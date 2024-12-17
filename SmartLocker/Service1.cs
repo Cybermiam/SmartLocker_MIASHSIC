@@ -5,57 +5,73 @@ using System.Linq;
 using System.Collections.Generic;
 using System;
 using System.Text;
+using System.Data.SqlClient;
+using System.IO;
+using System.Security.Principal;
+using System.Xml.Linq;
+using System.Runtime.CompilerServices;
+
+using Microsoft.Toolkit.Uwp.Notifications;
+
 
 namespace SmartLocker
 {
     public partial class Service1 : ServiceBase
     {
         private Timer timer;
-        private Dictionary<string, DateTime> appStartTimes = new Dictionary<string, DateTime>();
-        private TimeSpan allowedUsageTime = TimeSpan.FromMinutes(30); // Example: 30 minutes
+        private String user;
+        private EventLog eventLog;
+        private DataService dataService = new DataService();
 
         public Service1()
         {
             InitializeComponent();
+
+
         }
 
         protected override void OnStart(string[] args)
         {
-            EventLog.WriteEntry("Parental Control Service Started");
-
-            // Start a timer with a 10-second interval
-            timer = new Timer();
-            timer.Interval = 10000; // 10 seconds
-            timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
-            timer.Start();
+            try
+            {
+                this.user = WindowsIdentity.GetCurrent().Name;
+                addSampleData();
+                EventLog.WriteEntry("Parental Control Service Started");
+                timer = new Timer();
+                timer.Interval = 5000; // 1 minute
+                timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
+                timer.Start();
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry($"Error in OnStart: {ex.Message}", EventLogEntryType.Error);
+                throw;
+            }
         }
 
         protected override void OnStop()
         {
-            timer.Stop();
-            EventLog.WriteEntry("Parental Control Service Stopped");
+            try
+            {
+                timer.Stop();
+                EventLog.WriteEntry("Parental Control Service Stopped");
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry($"Error in OnStop: {ex.Message}", EventLogEntryType.Error);
+            }
         }
 
         private void OnTimer(object sender, ElapsedEventArgs e)
         {
-            // Close the notepad application
-            CloseNotepad();
-        }
-
-        public void CloseNotepad()
-        {
-            Process[] processList = Process.GetProcessesByName("notepad");
-            foreach (Process process in processList)
+            try
             {
-                try
-                {
-                    process.Kill();
-                    EventLog.WriteEntry($"Closed application: {process.ProcessName}");
-                }
-                catch (Exception ex)
-                {
-                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
-                }
+                EventLog.WriteEntry("Monitoring processes...");
+                ApplyTimeConstraints();
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry($"Error in OnTimer: {ex.Message}", EventLogEntryType.Error);
             }
         }
 
@@ -77,53 +93,10 @@ namespace SmartLocker
             return apps;
         }
 
-        private void BlockApplications(string[] blockedApps)
+        public void addSampleData()
         {
-            Process[] processList = Process.GetProcesses();
-            foreach (Process process in processList)
-            {
-                if (blockedApps.Contains(process.ProcessName))
-                {
-                    try
-                    {
-                        process.Kill();
-                        EventLog.WriteEntry($"Blocked application: {process.ProcessName}");
-                    }
-                    catch (Exception ex)
-                    {
-                        EventLog.WriteEntry($"Failed to block application: {process.ProcessName}. Error: {ex.Message}");
-                    }
-                }
-            }
-        }
-
-        private void MonitorAndLimitUsage()
-        {
-            Process[] processList = Process.GetProcesses();
-            foreach (Process process in processList)
-            {
-                if (!appStartTimes.ContainsKey(process.ProcessName))
-                {
-                    appStartTimes[process.ProcessName] = DateTime.Now;
-                }
-                else
-                {
-                    TimeSpan usageTime = DateTime.Now - appStartTimes[process.ProcessName];
-                    if (usageTime > allowedUsageTime)
-                    {
-                        try
-                        {
-                            process.Kill();
-                            EventLog.WriteEntry($"Terminated application due to time limit: {process.ProcessName}");
-                            appStartTimes.Remove(process.ProcessName);
-                        }
-                        catch (Exception ex)
-                        {
-                            EventLog.WriteEntry($"Failed to terminate application: {process.ProcessName}. Error: {ex.Message}");
-                        }
-                    }
-                }
-            }
+            dataService.addSampleApps();
+            dataService.createSampleConstraints();
         }
 
         public void StartInteractive()
@@ -135,5 +108,146 @@ namespace SmartLocker
         {
             OnStop();
         }
+
+        private void ApplyTimeConstraints()
+        {
+            try
+            {
+                // Récupérer les contraintes horaires
+                List<ContrainteHoraire> contraintesHoraires = dataService.getAllContraintesHoraire();
+                // Récupérer les contraintes journalières
+                List<ContrainteJour> contraintesJours = dataService.getAllContraintesJour();
+                // Récupérer les contraintes hebdomadaires
+                List<ContrainteSemaine> contraintesSemaines = dataService.getAllContraintesSemaine();
+
+                // Récupérer les applications en cours d'exécution
+                Process[] processList = Process.GetProcesses();
+
+                foreach (Process process in processList)
+                {
+                    // Vérifier les contraintes horaires
+                    foreach (var contrainte in contraintesHoraires)
+                    {
+                        if (process.ProcessName == dataService.getAppNameFromId(contrainte.AppId))
+                        {
+                            
+                            if (contrainte.UsedTime >= contrainte.MaxTime)
+                            {
+                                try
+                                {
+                                    process.Kill();
+                                    EventLog.WriteEntry($"Closed application due to hourly constraint: {process.ProcessName}");
+                                }
+                                catch (Exception ex)
+                                {
+                                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
+                                }
+                            }
+                            else
+                            {
+                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                            }
+                        }
+                    }
+
+                    // Vérifier les contraintes journalières
+                    foreach (var contrainte in contraintesJours)
+                    {
+                        if (process.ProcessName == dataService.getAppNameFromId(contrainte.AppId))
+                        {
+                            
+                            if (contrainte.UsedTime >= contrainte.MaxTime)
+                            {
+                                try
+                                {
+                                    process.Kill();
+                                    EventLog.WriteEntry($"Closed application due to daily constraint: {process.ProcessName}");
+                                }
+                                catch (Exception ex)
+                                {
+                                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
+                                }
+                            }
+                            else
+                            {
+                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                            }
+                        }
+                    }
+
+                    // Vérifier les contraintes hebdomadaires
+                    foreach (var contrainte in contraintesSemaines)
+                    {
+                        if (process.ProcessName == dataService.getAppNameFromId(contrainte.AppId))
+                        {
+                            int maxTime = 0;
+                            switch (DateTime.Now.DayOfWeek)
+                            {
+                                case DayOfWeek.Monday:
+                                    maxTime = contrainte.MondayTime;
+                                    break;
+                                case DayOfWeek.Tuesday:
+                                    maxTime = contrainte.TuesdayTime;
+                                    break;
+                                case DayOfWeek.Wednesday:
+                                    maxTime = contrainte.WednesdayTime;
+                                    break;
+                                case DayOfWeek.Thursday:
+                                    maxTime = contrainte.ThursdayTime;
+                                    break;
+                                case DayOfWeek.Friday:
+                                    maxTime = contrainte.FridayTime;
+                                    break;
+                                case DayOfWeek.Saturday:
+                                    maxTime = contrainte.SaturdayTime;
+                                    break;
+                                case DayOfWeek.Sunday:
+                                    maxTime = contrainte.SundayTime;
+                                    break;
+                            }
+
+                            
+                            if (contrainte.UsedTime >= maxTime)
+                            {
+                                try
+                                {
+                                    process.Kill();
+                                    EventLog.WriteEntry($"Closed application due to weekly constraint: {process.ProcessName}");
+                                }
+                                catch (Exception ex)
+                                {
+                                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
+                                }
+                            }
+                            else
+                            {
+                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                            }
+                        }
+                    }
+                }
+
+                // Mettre à jour les contraintes dans la base de données
+                foreach (var contrainte in contraintesHoraires)
+                {
+                    dataService.updateContrainteHoraire(contrainte);
+                }
+                foreach (var contrainte in contraintesJours)
+                {
+                    dataService.updateContrainteJour(contrainte);
+                }
+                foreach (var contrainte in contraintesSemaines)
+                {
+                    dataService.updateContrainteSemaine(contrainte);
+                }
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry($"Error in ApplyTimeConstraints: {ex.Message}", EventLogEntryType.Error);
+            }
+        }
+
+
+        
     }
 }

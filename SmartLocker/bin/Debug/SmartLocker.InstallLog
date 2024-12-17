@@ -353,3 +353,797 @@ Les paramètres affectés sont :
    logtoconsole = 
    logfile = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.InstallLog
    assemblypath = C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Warning: The source SmartLocker is not registered on the local machine.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Warning: The source SmartLocker is not registered on the local machine.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Creating EventLog source SmartLocker in log Application...
+Rolling back assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Restoring event log to previous state for source SmartLocker.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Uninstalling assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Removing EventLog source SmartLocker.
+Service SmartLocker is being removed from the system...
+Service SmartLocker was successfully removed from the system.
+Installing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe
+Installing service SmartLocker...
+Service SmartLocker has been successfully installed.
+Creating EventLog source SmartLocker in log Application...
+Committing assembly 'C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.InstallLog
+   assemblypath = C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\SmartLocker.exe

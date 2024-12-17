@@ -11,7 +11,7 @@ using SmartLockerWindows;
 
 namespace SmartLockerWindows.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+   
     [Migration("20241216165034_NewDb")]
     partial class NewDb
     {

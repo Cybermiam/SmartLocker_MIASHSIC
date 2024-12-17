@@ -10,7 +10,7 @@ using SmartLockerWindows;
 
 namespace SmartLockerWindows.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace SmartLockerWindows
+namespace SmartLockerData
 {
     public class AppDbContext : DbContext
     {

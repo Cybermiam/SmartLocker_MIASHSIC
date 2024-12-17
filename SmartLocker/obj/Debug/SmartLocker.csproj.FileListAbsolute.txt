@@ -18,3 +18,12 @@ C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker
 C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\obj\Debug\SmartLocker.csproj.CoreCompileInputs.cache
 C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\obj\Debug\SmartLocker.exe
 C:\Users\thecy\OneDrive\Bureau\cours\M2\Prog web serveur\SmartLocker\SmartLocker_MIASHSIC\SmartLocker\obj\Debug\SmartLocker.pdb
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\System.Data.SqlClient.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\System.Data.SqlClient.xml
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Debug\SmartLoc.6759600A.Up2Date
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\System.ValueTuple.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.xml
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Debug\SmartLocker.csproj.SuggestedBindingRedirects.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Debug\SmartLocker.exe.config
