@@ -19,6 +19,7 @@ namespace SmartLocker
     public partial class Service1 : ServiceBase
     {
         private Timer timer;
+        private Timer resetTimer;
         private String user;
         private EventLog eventLog;
         private DataService dataService = new DataService();
@@ -26,8 +27,6 @@ namespace SmartLocker
         public Service1()
         {
             InitializeComponent();
-
-
         }
 
         protected override void OnStart(string[] args)
@@ -35,12 +34,16 @@ namespace SmartLocker
             try
             {
                 this.user = WindowsIdentity.GetCurrent().Name;
-                addSampleData();
                 EventLog.WriteEntry("Parental Control Service Started");
+
+                // Configurer le timer pour surveiller les processus
                 timer = new Timer();
-                timer.Interval = 5000; // 1 minute
+                timer.Interval = 10000; // 1 minute
                 timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
                 timer.Start();
+
+                // Configurer le timer pour réinitialiser les temps utilisés à minuit
+                ScheduleResetTimer();
             }
             catch (Exception ex)
             {
@@ -54,6 +57,7 @@ namespace SmartLocker
             try
             {
                 timer.Stop();
+                resetTimer.Stop();
                 EventLog.WriteEntry("Parental Control Service Stopped");
             }
             catch (Exception ex)
@@ -73,6 +77,26 @@ namespace SmartLocker
             {
                 EventLog.WriteEntry($"Error in OnTimer: {ex.Message}", EventLogEntryType.Error);
             }
+        }
+
+        private void ScheduleResetTimer()
+        {
+            DateTime now = DateTime.Now;
+            DateTime midnight = DateTime.Today.AddDays(1); // Prochain minuit
+            double intervalToMidnight = (midnight - now).TotalMilliseconds;
+
+            resetTimer = new Timer(intervalToMidnight);
+            resetTimer.Elapsed += new ElapsedEventHandler(this.OnResetTimer);
+            resetTimer.Start();
+        }
+
+        private void OnResetTimer(object sender, ElapsedEventArgs e)
+        {
+            ResetUsedTimes();
+
+            // Replanifier le timer pour le prochain minuit
+            resetTimer.Interval = 24 * 60 * 60 * 1000; // 24 heures
+            resetTimer.Start();
         }
 
         public string MonitorProcesses()
@@ -100,11 +124,6 @@ namespace SmartLocker
             return appInfo;
         }
 
-        public void addSampleData()
-        {
-            dataService.addSampleApps();
-            dataService.createSampleConstraints();
-        }
 
         public void StartInteractive()
         {
@@ -254,7 +273,41 @@ namespace SmartLocker
             }
         }
 
+        private void ResetUsedTimes()
+        {
+            try
+            {
+                // Réinitialiser les temps utilisés pour les contraintes horaires
+                List<ContrainteHoraire> contraintesHoraires = dataService.getAllContraintesHoraire();
+                foreach (var contrainte in contraintesHoraires)
+                {
+                    contrainte.UsedTime = 0;
+                    dataService.updateContrainteHoraire(contrainte);
+                }
 
-        
+                // Réinitialiser les temps utilisés pour les contraintes journalières
+                List<ContrainteJour> contraintesJours = dataService.getAllContraintesJour();
+                foreach (var contrainte in contraintesJours)
+                {
+                    contrainte.UsedTime = 0;
+                    dataService.updateContrainteJour(contrainte);
+                }
+
+                // Réinitialiser les temps utilisés pour les contraintes hebdomadaires
+                List<ContrainteSemaine> contraintesSemaines = dataService.getAllContraintesSemaine();
+                foreach (var contrainte in contraintesSemaines)
+                {
+                    contrainte.UsedTime = 0;
+                    dataService.updateContrainteSemaine(contrainte);
+                }
+
+                EventLog.WriteEntry("All used times have been reset to 0.");
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry($"Error in ResetUsedTimes: {ex.Message}", EventLogEntryType.Error);
+            }
+        }
+
     }
 }

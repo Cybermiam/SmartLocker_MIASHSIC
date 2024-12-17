@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|c:\\users\\thecy\\source\\repos\\smartlocker\\smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|c:\\users\\thecy\\source\\repos\\smartlocker\\smartlocker\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\source\\repos\\smartlocker\\smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\source\\repos\\smartlocker\\smartlockerwindows\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,32 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\DataService.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\DataService.cs",
+              "ToolTip": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\DataService.cs",
+              "RelativeToolTip": "SmartLocker\\DataService.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAQwDsBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:29:27.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Service1.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\Service1.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\Service1.cs",
+              "ToolTip": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\Service1.cs",
+              "RelativeToolTip": "SmartLocker\\Service1.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:57:16.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerWindows\\Program.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\Program.cs",
+              "ToolTip": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerWindows\\Program.cs",
+              "RelativeToolTip": "SmartLockerWindows\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:51:12.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerWindows\\Form1.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\Form1.cs",
               "ToolTip": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerWindows\\Form1.cs",
               "RelativeToolTip": "SmartLockerWindows\\Form1.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwLQBAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAHABAAAAAAAAAADwvywAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T17:26:38.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProjectInstaller.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\ProjectInstaller.cs",
               "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.cs",
               "ToolTip": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\ProjectInstaller.cs",
               "RelativeToolTip": "SmartLocker\\ProjectInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:51:11.344Z"
+              "WhenOpened": "2024-12-15T11:51:11.344Z",
+              "EditorCaption": ""
             }
           ]
         }

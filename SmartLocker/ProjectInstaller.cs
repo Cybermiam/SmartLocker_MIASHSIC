@@ -11,6 +11,7 @@ public partial class ProjectInstaller : Installer
     public ProjectInstaller()
     {
         InitializeComponent();
+        serviceInstaller1.StartType = ServiceStartMode.Automatic;
     }
 
     private void InitializeComponent()
@@ -24,6 +25,7 @@ public partial class ProjectInstaller : Installer
         this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
         this.serviceProcessInstaller1.Password = null;
         this.serviceProcessInstaller1.Username = null;
+        
 
         // 
         // serviceInstaller1

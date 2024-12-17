@@ -313,71 +313,7 @@ namespace SmartLocker
             return userName;
         }
 
-        public void createSampleConstraints()
-        {
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    // Exemple de ContrainteHoraire
-                    string queryHoraire = "INSERT INTO ContrainteHoraires (UserId, AppId, MaxTime, BlockTime, UsedTime) VALUES (1, 1, 1, 1, 0)";
-                    using (SqlCommand command = new SqlCommand(queryHoraire, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-
-                    // Exemple de ContrainteJour
-                    string queryJour = "INSERT INTO ContrainteJours (UserId, AppId, MaxTime, UsedTime) VALUES (1, 2, 2, 0)";
-                    using (SqlCommand command = new SqlCommand(queryJour, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-
-                    // Exemple de ContrainteSemaine
-                    string querySemaine = "INSERT INTO ContrainteSemaines (UserId, AppId, MondayTime, TuesdayTime, WednesdayTime, ThursdayTime, FridayTime, SaturdayTime, SundayTime, UsedTime) VALUES (1, 3, 1, 3, 1, 1, 1, 1, 1, 0)";
-                    using (SqlCommand command = new SqlCommand(querySemaine, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                eventLog.WriteEntry($"Error in createSampleConstraints: {ex.Message}", EventLogEntryType.Error);
-            }
-        }
-
-        public void addSampleApps()
-        {
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-                    string query = $"INSERT INTO Apps (Name) VALUES ('notepad')";
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-                    query = $"INSERT INTO Apps (Name) VALUES ('CalculatorApp')";
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-                    query = $"INSERT INTO Apps (Name) VALUES ('Paint')";
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                eventLog.WriteEntry($"Error in addSampleApp: {ex.Message}", EventLogEntryType.Error);
-            }
-        }
+        
 
         public void updateContrainteHoraire(ContrainteHoraire contrainte)
         {
