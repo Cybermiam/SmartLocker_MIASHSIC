@@ -1,0 +1,15 @@
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\bin\Debug\net8.0\SmartLockerData.deps.json
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\bin\Debug\net8.0\SmartLockerData.runtimeconfig.json
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\bin\Debug\net8.0\SmartLockerData.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\bin\Debug\net8.0\SmartLockerData.pdb
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.csproj.AssemblyReference.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.AssemblyInfoInputs.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.AssemblyInfo.cs
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.csproj.CoreCompileInputs.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.sourcelink.json
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\refint\SmartLockerData.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.pdb
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\SmartLockerData.genruntimeconfig.cache
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerData\obj\Debug\net8.0\ref\SmartLockerData.dll

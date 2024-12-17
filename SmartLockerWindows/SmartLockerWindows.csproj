@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SmartLockerData\SmartLockerData.csproj" />
     <ProjectReference Include="..\SmartLocker\SmartLocker.csproj" />
   </ItemGroup>
 

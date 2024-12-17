@@ -1732,6 +1732,20 @@
         "runtime": {
           "bin/placeholder/SmartLocker.dll": {}
         }
+      },
+      "SmartLockerData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SmartLockerData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartLockerData.dll": {}
+        }
       }
     }
   },
@@ -5015,6 +5029,11 @@
       "type": "project",
       "path": "../SmartLocker/SmartLocker.csproj",
       "msbuildProject": "../SmartLocker/SmartLocker.csproj"
+    },
+    "SmartLockerData/1.0.0": {
+      "type": "project",
+      "path": "../SmartLockerData/SmartLockerData.csproj",
+      "msbuildProject": "../SmartLockerData/SmartLockerData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5024,6 +5043,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "SmartLocker >= 1.0.0",
+      "SmartLockerData >= 1.0.0",
       "System.Data.SqlClient >= 4.9.0",
       "System.ServiceProcess.ServiceController >= 9.0.0"
     ]
@@ -5061,6 +5081,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerData\\SmartLockerData.csproj": {
+              "projectPath": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerData\\SmartLockerData.csproj"
+            },
             "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\SmartLocker.csproj": {
               "projectPath": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLocker\\SmartLocker.csproj"
             }

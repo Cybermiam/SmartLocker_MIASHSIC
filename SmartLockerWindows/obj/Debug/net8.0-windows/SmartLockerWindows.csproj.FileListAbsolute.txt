@@ -314,3 +314,5 @@ C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-wind
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\SmartLockerData.dll
+C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\SmartLockerData.pdb
