@@ -29,7 +29,7 @@ namespace SmartLockerWindows
             {
                 usersString += users[i].Name + " ";
             }
-            MessageBox.Show("utilisateurs après suppression : " + usersString);
+            MessageBox.Show("utilisateurs aprï¿½s suppression : " + usersString);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

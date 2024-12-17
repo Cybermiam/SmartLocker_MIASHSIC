@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SmartLockerWindows
-{
+{ 
     public class StatistiquesUtilisation
     {
         public int Id { get; set; }

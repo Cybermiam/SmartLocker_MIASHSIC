@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\projectinstaller.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{067D80FD-9B71-4C26-876B-45A202A383D3}|SmartLocker\\SmartLocker.csproj|solutionrelative:smartlocker\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|c:\\users\\thecy\\onedrive\\bureau\\cours\\m2\\prog web serveur\\smartlocker\\smartlocker_miashsic\\smartlockerwindows\\migrations\\20241216155652_datamigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB12D87D-8A46-4036-A64D-A2EBB40A5B8A}|SmartLockerWindows\\SmartLockerWindows.csproj|solutionrelative:smartlockerwindows\\migrations\\20241216155652_datamigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -94,63 +94,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContrainteSemaine.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteSemaine.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\ContrainteSemaine.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteSemaine.cs",
-              "RelativeToolTip": "SmartLockerWindows\\ContrainteSemaine.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:07:55.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\AppDbContext.cs",
-              "RelativeToolTip": "SmartLockerWindows\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T14:13:39.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DataService.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\DataService.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\DataService.cs",
               "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\DataService.cs",
               "RelativeToolTip": "SmartLockerWindows\\DataService.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA4wAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T14:23:04.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T14:23:04.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Utilisateur.cs",
-              "RelativeToolTip": "SmartLockerWindows\\Utilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:17:24.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Program.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\Program.cs",
@@ -158,24 +118,22 @@
               "RelativeToolTip": "SmartLockerWindows\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAswBYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T15:59:05.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T15:59:05.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\Form1.cs",
               "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.cs [Conception]",
               "RelativeToolTip": "SmartLockerWindows\\Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T09:38:05.221Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2024-12-16T09:38:05.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\Form1.cs",
@@ -183,12 +141,11 @@
               "RelativeToolTip": "SmartLockerWindows\\Form1.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwD0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T15:58:52.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T15:58:52.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ContrainteHoraire.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteHoraire.cs",
               "RelativeDocumentMoniker": "SmartLockerWindows\\ContrainteHoraire.cs",
@@ -196,141 +153,11 @@
               "RelativeToolTip": "SmartLockerWindows\\ContrainteHoraire.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:56:09.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:56:09.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StatistiquesUtilisation.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\StatistiquesUtilisation.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\StatistiquesUtilisation.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\StatistiquesUtilisation.cs",
-              "RelativeToolTip": "SmartLockerWindows\\StatistiquesUtilisation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:52:20.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContrainteJour.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteJour.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\ContrainteJour.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteJour.cs",
-              "RelativeToolTip": "SmartLockerWindows\\ContrainteJour.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:56:14.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\App.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.cs",
-              "RelativeToolTip": "SmartLockerWindows\\App.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:02:07.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20241216155652_DataMigration1.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
-              "RelativeToolTip": "SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:56:52.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.config",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\App.config",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.config",
-              "RelativeToolTip": "SmartLockerWindows\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-16T15:05:04.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "SmartLockerWindows\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.Designer.cs",
-              "RelativeToolTip": "SmartLockerWindows\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:57:05.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Service1.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.cs",
-              "RelativeDocumentMoniker": "SmartLocker\\Service1.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.cs",
-              "RelativeToolTip": "SmartLocker\\Service1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:11:43.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProjectInstaller.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.Designer.cs",
-              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.Designer.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.Designer.cs",
-              "RelativeToolTip": "SmartLocker\\ProjectInstaller.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:28:53.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProjectInstaller.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
-              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs [Design]",
-              "RelativeToolTip": "SmartLocker\\ProjectInstaller.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:27:39.503Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProjectInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
-              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.cs",
-              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
-              "RelativeToolTip": "SmartLocker\\ProjectInstaller.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:51:11.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Program.cs",
               "RelativeDocumentMoniker": "SmartLocker\\Program.cs",
@@ -338,12 +165,11 @@
               "RelativeToolTip": "SmartLocker\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:11:34.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T11:11:34.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "Service1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.cs",
               "RelativeDocumentMoniker": "SmartLocker\\Service1.cs",
@@ -355,7 +181,163 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service1.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\Service1.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.cs",
+              "RelativeToolTip": "SmartLocker\\Service1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:11:43.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Utilisateur.cs",
+              "RelativeToolTip": "SmartLockerWindows\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:17:24.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\AppDbContext.cs",
+              "RelativeToolTip": "SmartLockerWindows\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:13:39.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContrainteSemaine.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteSemaine.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\ContrainteSemaine.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteSemaine.cs",
+              "RelativeToolTip": "SmartLockerWindows\\ContrainteSemaine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:07:55.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatistiquesUtilisation.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\StatistiquesUtilisation.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\StatistiquesUtilisation.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\StatistiquesUtilisation.cs",
+              "RelativeToolTip": "SmartLockerWindows\\StatistiquesUtilisation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:52:20.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContrainteJour.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteJour.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\ContrainteJour.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\ContrainteJour.cs",
+              "RelativeToolTip": "SmartLockerWindows\\ContrainteJour.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:56:14.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\App.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.cs",
+              "RelativeToolTip": "SmartLockerWindows\\App.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:02:07.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241216155652_DataMigration1.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
+              "RelativeToolTip": "SmartLockerWindows\\Migrations\\20241216155652_DataMigration1.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:56:52.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.config",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\App.config",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\App.config",
+              "RelativeToolTip": "SmartLockerWindows\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-16T15:05:04.396Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SmartLockerWindows\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\Form1.Designer.cs",
+              "RelativeToolTip": "SmartLockerWindows\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:57:05.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProjectInstaller.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.Designer.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.Designer.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.Designer.cs",
+              "RelativeToolTip": "SmartLocker\\ProjectInstaller.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:28:53.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectInstaller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs [Design]",
+              "RelativeToolTip": "SmartLocker\\ProjectInstaller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:27:39.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProjectInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "SmartLocker\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\ProjectInstaller.cs",
+              "RelativeToolTip": "SmartLocker\\ProjectInstaller.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:51:11.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Service1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLocker\\Service1.Designer.cs",
               "RelativeDocumentMoniker": "SmartLocker\\Service1.Designer.cs",
@@ -363,8 +345,7 @@
               "RelativeToolTip": "SmartLocker\\Service1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:16:26.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T12:16:26.879Z"
             }
           ]
         }
