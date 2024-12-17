@@ -64,6 +64,14 @@ namespace SmartLockerData
             }
         }
 
+        public App ObtenirApp(string name)
+        {
+            using (var context = new AppDbContext())
+            {
+                return context.Apps.FirstOrDefault(a => a.Name == name);
+            }
+        }
+
         public List<App> ObtenirToutesLesApps()
         {
             using (var context = new AppDbContext())
@@ -144,6 +152,14 @@ namespace SmartLockerData
             }
         }
 
+        public ContrainteHoraire ObtenirContrainteHoraire(int userId, int appId)
+        {
+            using (var context = new AppDbContext())
+            {
+                return context.ContrainteHoraires.FirstOrDefault(c => c.UserId == userId && c.AppId == appId);
+            }
+        }
+
         public List<ContrainteHoraire> ObtenirToutesLesContraintesHoraires()
         {
             using (var context = new AppDbContext())
@@ -184,6 +200,14 @@ namespace SmartLockerData
             }
         }
 
+        public ContrainteJour ObtenirContrainteJour(int userId, int appId)
+        {
+            using (var context = new AppDbContext())
+            {
+                return context.ContrainteJours.FirstOrDefault(c => c.UserId == userId && c.AppId == appId);
+            }
+        }
+
         public List<ContrainteJour> ObtenirToutesLesContraintesJours()
         {
             using (var context = new AppDbContext())
@@ -221,6 +245,14 @@ namespace SmartLockerData
             using (var context = new AppDbContext())
             {
                 return context.ContrainteSemaines.FirstOrDefault(c => c.Id == id);
+            }
+        }
+
+        public ContrainteSemaine ObtenirContrainteSemaine(int userId, int appId)
+        {
+            using (var context = new AppDbContext())
+            {
+                return context.ContrainteSemaines.FirstOrDefault(c => c.UserId == userId && c.AppId == appId);
             }
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartLockerWindows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb5e78ad53c85084568fcd27d848bb31ed29021f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff3145825baab803bb6befa98f821528b76de865")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartLockerWindows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartLockerWindows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

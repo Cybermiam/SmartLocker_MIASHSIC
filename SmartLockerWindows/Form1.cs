@@ -7,33 +7,68 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using SmartLockerData;
 
 namespace SmartLockerWindows
 {
     public partial class Form1 : Form
     {
         private TabControl tabControl;
-        private List<String> applications;
+        private List<App> applications;
         private TabPage tabStatistique;
+        private List<Utilisateur> utilisateurs;
+
+        int userID = 0;
+        int appID = 0;
+        int maxTime = 24;
+        int blockedTime = 0;
+        int useTime = 0;
+        int[] days = { 24, 24, 24, 24, 24, 24, 24};
 
         public Form1()
         {
             InitializeComponent();
             LoadApplications();
+            applications = GetApplications();
             SetupUI();
+            
         }
 
-        private List<string> LoadApplications()
+        public void LoadUsers()
         {
-            // Simulation des applications récupérées via un service Windows
-            applications = new List<string>
+            DataService ser = new DataService();
+            if (ser.ObtenirTousLesUtilisateurs() != null)
             {
-                "feur",
-                "fenjz"
-            };
-
-            return applications;
+                utilisateurs = ser.ObtenirTousLesUtilisateurs();
+            }
+            else
+            {
+                ser.AjouterUtilisateur("admin", true);
+            }
         }
+
+        private void LoadApplications()
+        {
+            DataService ser = new DataService();
+            Service1 service = new Service1();
+            List<string> liststring = service.MonitorApplications();
+            foreach (var item in liststring)
+            {
+                if(ser.ObtenirApp(item)== null)
+                {
+                    ser.AjouterApp(item);
+                }
+
+            }
+        }
+
+        private List<App> GetApplications()
+        {
+            DataService ser = new DataService();
+            return ser.ObtenirToutesLesApps();
+            
+        }
+
 
         private void SetupUI()
         {
@@ -63,8 +98,14 @@ namespace SmartLockerWindows
             CreateStatistiqueTab(tabStatistique);
         }
 
+        /// /////////////////////////////////////////////////////////////////////////////////////////
+        /// Première page <summary>
+        /// /////////////////////////////////////////////////////////////////////////////////////////
+
         private void CreateSmartLockerTab(TabPage tab)
         {             // Titre
+
+
             Label titleLabel = new Label
             {
                 Text = "SmartLocker",
@@ -89,11 +130,12 @@ namespace SmartLockerWindows
             {
                 Button appButton = new Button
                 {
-                    Text = app,
+                    Text = app.Name,
                     Font = new Font("Arial", 12),
                     Location = new Point(10, yOffset),
                     Size = new Size(160, 30)
                 };
+                appButton.Click += (sender, e) => appID = app.Id; // Gestionnaire d'événements pour mettre à jour appID
                 scrollablePanel.Controls.Add(appButton);
                 yOffset += 40;
             }
@@ -124,7 +166,9 @@ namespace SmartLockerWindows
             CreateJour(tabPage2);
             CreateSemaine(tabPage3);
 
+
         }
+
 
         private void CreatePlageHoraire(TabPage tab)
         {
@@ -149,6 +193,7 @@ namespace SmartLockerWindows
             {
                 comboBox.Items.Add(i);
             }
+            comboBox.SelectedIndexChanged += (sender, e) => maxTime = (int)comboBox.SelectedItem; // Gestionnaire d'événements pour mettre à jour maxTime
             tab.Controls.Add(comboBox);
 
             Label label2 = new Label
@@ -171,7 +216,37 @@ namespace SmartLockerWindows
             {
                 comboBox2.Items.Add(i);
             }
+            comboBox2.SelectedIndexChanged += (sender, e) => blockedTime = (int)comboBox2.SelectedItem; // Gestionnaire d'événements pour mettre à jour blockedTime
             tab.Controls.Add(comboBox2);
+
+            Button saveButton = new Button
+            {
+                Text = "Valider",
+                Location = new Point(350, 250),
+                Size = new Size(100, 30),
+                BackColor = Color.LightGray,
+                FlatStyle = FlatStyle.Flat
+            };
+            saveButton.Click += (sender, e) => SavePlageHoraire();
+            tab.Controls.Add(saveButton);
+
+        }
+        public void SavePlageHoraire()
+        {
+            DataService ser = new DataService();
+            if(ser.ObtenirContrainteHoraire(userID, appID) != null)
+            {
+                ser.SupprimerContrainteHoraire(ser.ObtenirContrainteHoraire(userID, appID).Id);
+            }
+            SmartLockerData.ContrainteHoraire cr = new SmartLockerData.ContrainteHoraire
+            {
+                UserId = userID,
+                AppId = appID,
+                MaxTime = maxTime,
+                BlockTime = blockedTime,
+                UsedTime = 0
+            };
+            ser.AjouterContrainteHoraire(cr);
         }
 
         private void CreateJour(TabPage tab)
@@ -196,15 +271,45 @@ namespace SmartLockerWindows
             {
                 comboBox.Items.Add(i);
             }
+            comboBox.SelectedIndexChanged += (sender, e) => maxTime = (int)comboBox.SelectedItem; // Gestionnaire d'événements pour mettre à jour maxTime
             tab.Controls.Add(comboBox);
+
+            Button saveButton = new Button
+            {
+                Text = "Valider",
+                Location = new Point(350, 250),
+                Size = new Size(100, 30),
+                BackColor = Color.LightGray,
+                FlatStyle = FlatStyle.Flat
+            };
+            saveButton.Click += (sender, e) => SaveJour();
+            tab.Controls.Add(saveButton);
+        }
+
+        public void SaveJour()
+        {
+            DataService ser = new DataService();
+            if (ser.ObtenirContrainteJour(userID, appID) != null)
+            {
+                ser.SupprimerContrainteJour(ser.ObtenirContrainteJour(userID, appID).Id);
+            }
+            SmartLockerData.ContrainteJour cr = new SmartLockerData.ContrainteJour
+            {
+                UserId = userID,
+                AppId = appID,
+                MaxTime = maxTime,
+                UsedTime = 0
+            };
+            ser.AjouterContrainteJour(cr);
         }
         private void CreateSemaine(TabPage tab)
         {
             string[] jours = { "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
             int yOffset = 20;
 
-            foreach (var jour in jours)
+            for (int j = 0; j < jours.Length; j++)
             {
+                var jour = jours[j];
                 // Label pour le jour
                 Label label = new Label
                 {
@@ -227,10 +332,48 @@ namespace SmartLockerWindows
                 {
                     comboBox.Items.Add(i);
                 }
+
+                int index = j; // Capturer l'index actuel
+                comboBox.SelectedIndexChanged += (sender, e) => days[index] = (int)comboBox.SelectedItem; // Gestionnaire d'événements pour mettre à jour days
                 tab.Controls.Add(comboBox);
 
                 yOffset += 40;
             }
+
+            Button saveButton = new Button
+            {
+                Text = "Valider",
+                Location = new Point(350, 250),
+                Size = new Size(100, 30),
+                BackColor = Color.LightGray,
+                FlatStyle = FlatStyle.Flat
+            };
+            saveButton.Click += (sender, e) => SaveSemaine();
+            tab.Controls.Add(saveButton);
+        }
+
+
+        public void SaveSemaine()
+        {
+            DataService ser = new DataService();
+            if (ser.ObtenirContrainteSemaine(userID, appID) != null)
+            {
+                ser.SupprimerContrainteSemaine(ser.ObtenirContrainteSemaine(userID, appID).Id);
+            }
+            SmartLockerData.ContrainteSemaine cr = new SmartLockerData.ContrainteSemaine
+            {
+                UserId = userID,
+                AppId = appID,
+                MondayTime = days[0],
+                TuesdayTime = days[1],
+                WednesdayTime = days[2],
+                ThursdayTime = days[3],
+                FridayTime = days[4],
+                SaturdayTime = days[5],
+                SundayTime = days[6],
+                UsedTime = 0
+            };
+            ser.AjouterContrainteSemaine(cr);
         }
 
         /// /////////////////////////////////////////////////////////////////////////////////////////

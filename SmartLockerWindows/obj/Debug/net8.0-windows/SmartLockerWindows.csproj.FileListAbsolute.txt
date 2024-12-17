@@ -317,6 +317,3 @@ C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-wind
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\SmartLockerData.dll
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\SmartLockerData.pdb
 C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\Microsoft.Toolkit.Uwp.Notifications.dll
-C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\NotificationSender.exe
-C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\NotificationSender.pdb
-C:\Users\thecy\source\repos\SmartLocker\SmartLockerWindows\bin\Debug\net8.0-windows\NotificationSender.exe.config
