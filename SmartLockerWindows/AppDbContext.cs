@@ -13,7 +13,7 @@ namespace SmartLockerWindows
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MSI\\MSSQLSERVER01;Database=SmartLockerDB; Integrated Security=True; TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=CYBERMIAM;Database=SmartLockerDB; Integrated Security=True; TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoT3B+Jhn/I=",
+  "dgSpecHash": "lXTuYWaxr6I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thecy\\OneDrive\\Bureau\\cours\\M2\\Prog web serveur\\SmartLocker\\SmartLocker_MIASHSIC\\SmartLockerWindows\\SmartLockerWindows.csproj",
+  "projectFilePath": "C:\\Users\\thecy\\source\\repos\\SmartLocker\\SmartLockerWindows\\SmartLockerWindows.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thecy\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\thecy\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

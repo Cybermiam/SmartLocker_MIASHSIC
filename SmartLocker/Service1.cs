@@ -70,18 +70,11 @@ namespace SmartLocker
             return processInfo.ToString();
         }
 
-        public string MonitorApplications()
+        public Array MonitorApplications()
         {
             Process[] processList = Process.GetProcesses();
-            StringBuilder appInfo = new StringBuilder();
-            foreach (Process process in processList)
-            {
-                if (!string.IsNullOrEmpty(process.MainWindowTitle))
-                {
-                    appInfo.AppendLine($"Application: {process.ProcessName} Title: {process.MainWindowTitle} ID: {process.Id}");
-                }
-            }
-            return appInfo.ToString();
+            Array apps = processList.Select(p => p.ProcessName).Distinct().ToArray();
+            return apps;
         }
 
         private void BlockApplications(string[] blockedApps)
