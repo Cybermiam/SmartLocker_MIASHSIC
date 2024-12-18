@@ -16,11 +16,24 @@ namespace SmartLockerData
             }
         }
 
-        public Utilisateur ObtenirUtilisateur(int id)
+        public Utilisateur ObtenirUtilisateur(int Id)
         {
             using (var context = new AppDbContext())
             {
-                return context.Utilisateurs.FirstOrDefault(u => u.Id == id);
+                return context.Utilisateurs.FirstOrDefault(u => u.Id == Id);
+            }
+        }
+
+        public Utilisateur ObtenirUtilisateur(string name)
+        {
+            using (var context = new AppDbContext())
+            {
+                Utilisateur u = context.Utilisateurs.FirstOrDefault(u => u.Name == name);
+                if (u == null)
+                {
+                    return null;
+                }
+                return u;
             }
         }
 
@@ -28,6 +41,10 @@ namespace SmartLockerData
         {
             using (var context = new AppDbContext())
             {
+                if (context.Utilisateurs == null)
+                {
+                    return null;
+                }
                 return context.Utilisateurs.ToList();
             }
         }
@@ -276,12 +293,17 @@ namespace SmartLockerData
                 }
             }
         }
-        public void deleteAll()
+
+        public int getUserIdFromName(string name)
         {
             using (var context = new AppDbContext())
             {
-                context.Database.EnsureDeleted();
-                context.Database.EnsureCreated();
+                Utilisateur u = context.Utilisateurs.FirstOrDefault(u => u.Name == name);
+                if (u == null)
+                {
+                    return -1;
+                }
+                return u.Id;
             }
         }
     }

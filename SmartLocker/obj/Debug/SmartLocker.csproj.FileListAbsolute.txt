@@ -27,3 +27,4 @@ C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\Microsoft.Toolkit.
 C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.xml
 C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Debug\SmartLocker.csproj.SuggestedBindingRedirects.cache
 C:\Users\thecy\source\repos\SmartLocker\SmartLocker\obj\Debug\SmartLocker.exe.config
+C:\Users\thecy\source\repos\SmartLocker\SmartLocker\bin\Debug\System.DirectoryServices.AccountManagement.dll

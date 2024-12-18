@@ -14,5 +14,9 @@ namespace SmartLocker
         public int MaxTime { get; set; }
         public int BlockTime { get; set; }
         public int UsedTime { get; set; }
+
+        // Propriétés pour les valeurs initiales
+        public int InitialBlockTime { get; set; } = 1000000;
+        public int InitialUsedTime { get; set; } = 1000000;
     }
 }

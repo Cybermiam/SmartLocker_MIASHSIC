@@ -14,5 +14,7 @@ namespace SmartLockerData
         public int MaxTime { get; set; }
         public int BlockTime { get; set; }
         public int UsedTime { get; set; }
+
+       
     }
 }

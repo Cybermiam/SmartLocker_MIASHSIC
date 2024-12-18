@@ -12,6 +12,11 @@ using System.Xml.Linq;
 using System.Runtime.CompilerServices;
 
 using Microsoft.Toolkit.Uwp.Notifications;
+using System.Data;
+
+using System.DirectoryServices.AccountManagement;
+
+using System.Collections.Generic;
 
 
 namespace SmartLocker
@@ -29,12 +34,21 @@ namespace SmartLocker
             InitializeComponent();
         }
 
+        public string getCurrentUser()
+        {
+            return WindowsIdentity.GetCurrent().Name;
+        }
+
         protected override void OnStart(string[] args)
         {
             try
             {
                 this.user = WindowsIdentity.GetCurrent().Name;
                 EventLog.WriteEntry("Parental Control Service Started");
+
+                // Ensure unique instance identification
+                string instanceId = Guid.NewGuid().ToString();
+                EventLog.WriteEntry($"Instance ID: {instanceId}");
 
                 // Configurer le timer pour surveiller les processus
                 timer = new Timer();
@@ -51,6 +65,7 @@ namespace SmartLocker
                 throw;
             }
         }
+
 
         protected override void OnStop()
         {
@@ -141,37 +156,61 @@ namespace SmartLocker
             {
                 // Récupérer les contraintes horaires
                 List<ContrainteHoraire> contraintesHoraires = dataService.getAllContraintesHoraire();
+                //on utilise une valeure abbérante pour set les valeurs initiales
+                for (int i = 0; i < contraintesHoraires.Count; i++)
+                {
+                    if (contraintesHoraires[i].InitialBlockTime == 1000000)
+                    {
+                        contraintesHoraires[i].InitialBlockTime = contraintesHoraires[i].BlockTime;
+                    }
+                    if (contraintesHoraires[i].InitialUsedTime == 1000000)
+                    {
+                        contraintesHoraires[i].InitialUsedTime = contraintesHoraires[i].UsedTime;
+                    }
+                }
                 // Récupérer les contraintes journalières
                 List<ContrainteJour> contraintesJours = dataService.getAllContraintesJour();
                 // Récupérer les contraintes hebdomadaires
                 List<ContrainteSemaine> contraintesSemaines = dataService.getAllContraintesSemaine();
+
+                // Vérifier les contraintes horaires
+                foreach (var contrainte in contraintesHoraires)
+                {
+                    if (contrainte.BlockTime > 0 && contrainte.UsedTime >= contrainte.MaxTime)
+                    {
+                        // Décrémenter le temps de pause
+
+                        contrainte.BlockTime -= 1;
+                        EventLog.WriteEntry($"BlockTime: {contrainte.BlockTime}");
+                    }
+                    if (contrainte.BlockTime == 0)
+                    {   
+                            EventLog.WriteEntry($"Reset block and used time for contrainteHoraire");
+                            contrainte.BlockTime = contrainte.InitialBlockTime; // Appliquer le temps de pause
+                            contrainte.UsedTime = contrainte.InitialUsedTime; // Réinitialiser le temps utilisé     
+                    }
+                    
+                }
+
 
                 // Récupérer les applications en cours d'exécution
                 Process[] processList = Process.GetProcesses();
 
                 foreach (Process process in processList)
                 {
-                    // Vérifier les contraintes horaires
+                    
                     foreach (var contrainte in contraintesHoraires)
                     {
+                        
                         if (process.ProcessName == dataService.getAppNameFromId(contrainte.AppId))
                         {
-                            
-                            if (contrainte.UsedTime >= contrainte.MaxTime)
+                             if (contrainte.UsedTime < contrainte.MaxTime)
                             {
-                                try
-                                {
-                                    process.Kill();
-                                    EventLog.WriteEntry($"Closed application due to hourly constraint: {process.ProcessName}");
-                                }
-                                catch (Exception ex)
-                                {
-                                    EventLog.WriteEntry($"Failed to close application: {process.ProcessName}. Error: {ex.Message}");
-                                }
-                            }
-                            else
+                                contrainte.UsedTime += 1; // Incrémenter le temps utilisé
+                                EventLog.WriteEntry($"UsedTime: {contrainte.UsedTime}");
+                            } else if (contrainte.UsedTime >= contrainte.MaxTime)
                             {
-                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                                process.Kill();
                             }
                         }
                     }
@@ -181,7 +220,6 @@ namespace SmartLocker
                     {
                         if (process.ProcessName == dataService.getAppNameFromId(contrainte.AppId))
                         {
-                            
                             if (contrainte.UsedTime >= contrainte.MaxTime)
                             {
                                 try
@@ -196,7 +234,7 @@ namespace SmartLocker
                             }
                             else
                             {
-                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                                contrainte.UsedTime += 1; // Incrémenter le temps utilisé
                             }
                         }
                     }
@@ -232,7 +270,6 @@ namespace SmartLocker
                                     break;
                             }
 
-                            
                             if (contrainte.UsedTime >= maxTime)
                             {
                                 try
@@ -247,7 +284,7 @@ namespace SmartLocker
                             }
                             else
                             {
-                                contrainte.UsedTime += 1; // Incrementer le temps utilisé
+                                contrainte.UsedTime += 1; // Incrémenter le temps utilisé
                             }
                         }
                     }

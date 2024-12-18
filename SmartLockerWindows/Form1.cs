@@ -29,6 +29,7 @@ namespace SmartLockerWindows
         {
             InitializeComponent();
             LoadApplications();
+            LoadUsers();
             applications = GetApplications();
             SetupUI();
             
@@ -36,16 +37,24 @@ namespace SmartLockerWindows
 
         public void LoadUsers()
         {
-            DataService ser = new DataService();
-            if (ser.ObtenirTousLesUtilisateurs() != null)
+            DataService ser = new DataService(); 
+            Service1 service = new Service1();
+
+            if (ser.ObtenirTousLesUtilisateurs().Count > 0)
             {
+               
                 utilisateurs = ser.ObtenirTousLesUtilisateurs();
+
             }
             else
             {
-                ser.AjouterUtilisateur("admin", true);
+                
+                String firstUser = service.getCurrentUser();
+                ser.AjouterUtilisateur(firstUser, true);
+                utilisateurs = ser.ObtenirTousLesUtilisateurs();
             }
         }
+
 
         private void LoadApplications()
         {
@@ -72,6 +81,7 @@ namespace SmartLockerWindows
 
         private void SetupUI()
         {
+
             // TabControl
             tabControl = new TabControl
             {
@@ -90,13 +100,29 @@ namespace SmartLockerWindows
             tabControl.TabPages.Add(tabStatistique);
 
             CreateSmartLockerTab(tabSmartLocker);
-
-            // Contenu de l'onglet Gestion
             CreateGestionTab(tabGestion);
-
-            // Contenu de l'onglet Statistique
             CreateStatistiqueTab(tabStatistique);
         }
+
+        private void RefreshUI()
+        {
+            LoadApplications();
+            applications = GetApplications();
+            tabControl.TabPages.Clear();
+
+            TabPage tabSmartLocker = new TabPage("SmartLocker");
+            TabPage tabGestion = new TabPage("Gestion");
+            tabStatistique = new TabPage("Statistique");
+
+            tabControl.TabPages.Add(tabSmartLocker);
+            tabControl.TabPages.Add(tabGestion);
+            tabControl.TabPages.Add(tabStatistique);
+
+            CreateSmartLockerTab(tabSmartLocker);
+            CreateGestionTab(tabGestion);
+            CreateStatistiqueTab(tabStatistique);
+        }
+
 
         /// /////////////////////////////////////////////////////////////////////////////////////////
         /// Première page <summary>
@@ -133,9 +159,14 @@ namespace SmartLockerWindows
                     Text = app.Name,
                     Font = new Font("Arial", 12),
                     Location = new Point(10, yOffset),
-                    Size = new Size(160, 30)
+                    Size = new Size(160, 30),
+                    BackColor = app.Id == appID ? Color.LightBlue : Color.LightGray // Mettre en évidence le bouton correspondant à appID
                 };
-                appButton.Click += (sender, e) => appID = app.Id; // Gestionnaire d'événements pour mettre à jour appID
+                appButton.Click += (sender, e) =>
+                {
+                    appID = app.Id;
+                    RefreshUI(); // Rafraîchir l'UI pour mettre à jour la mise en évidence
+                };
                 scrollablePanel.Controls.Add(appButton);
                 yOffset += 40;
             }
@@ -172,6 +203,32 @@ namespace SmartLockerWindows
 
         private void CreatePlageHoraire(TabPage tab)
         {
+            Label user = new Label
+            {
+                Text = "User :",
+                Font = new Font("Arial", 12),
+                Location = new Point(360, 20),
+                AutoSize = true
+            };
+            tab.Controls.Add(user);
+
+            ComboBox comboBoxuser = new ComboBox
+            {
+                Location = new Point(360, 40),
+                Size = new Size(100, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            foreach (var utilisateur in utilisateurs)
+            {
+                comboBoxuser.Items.Add(utilisateur.Name);
+            }
+            string usertransition = "";
+            comboBoxuser.SelectedIndexChanged += (sender, e) => usertransition = comboBoxuser.SelectedItem.ToString(); // Gestionnaire d'événements pour mettre à jour maxTime
+            DataService ser = new DataService();
+
+            userID = ser.getUserIdFromName(usertransition);
+            tab.Controls.Add(comboBoxuser);
             // Champ texte avec la mention "temps autorisé"
             Label label = new Label
             {
@@ -247,10 +304,37 @@ namespace SmartLockerWindows
                 UsedTime = 0
             };
             ser.AjouterContrainteHoraire(cr);
+            RefreshUI();
         }
 
         private void CreateJour(TabPage tab)
         {
+            Label user = new Label
+            {
+                Text = "User :",
+                Font = new Font("Arial", 12),
+                Location = new Point(360, 20),
+                AutoSize = true
+            };
+            tab.Controls.Add(user);
+
+            ComboBox comboBoxuser = new ComboBox
+            {
+                Location = new Point(360, 40),
+                Size = new Size(100, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            foreach (var utilisateur in utilisateurs)
+            {
+                comboBoxuser.Items.Add(utilisateur.Name);
+            }
+            string usertransition = "";
+            comboBoxuser.SelectedIndexChanged += (sender, e) => usertransition = comboBoxuser.SelectedItem.ToString(); // Gestionnaire d'événements pour mettre à jour maxTime
+            DataService ser = new DataService();
+            userID = ser.getUserIdFromName(usertransition);
+            tab.Controls.Add(comboBoxuser);
+
             Label label = new Label
             {
                 Text = "Temps par jour",
@@ -301,9 +385,36 @@ namespace SmartLockerWindows
                 UsedTime = 0
             };
             ser.AjouterContrainteJour(cr);
+            RefreshUI();
         }
         private void CreateSemaine(TabPage tab)
         {
+            Label user = new Label
+            {
+                Text = "User :",
+                Font = new Font("Arial", 12),
+                Location = new Point(360, 20),
+                AutoSize = true
+            };
+            tab.Controls.Add(user);
+
+            ComboBox comboBoxuser = new ComboBox
+            {
+                Location = new Point(360, 40),
+                Size = new Size(100, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            foreach (var utilisateur in utilisateurs)
+            {
+                comboBoxuser.Items.Add(utilisateur.Name);
+            }
+            string usertransition = "";
+            comboBoxuser.SelectedIndexChanged += (sender, e) => usertransition = comboBoxuser.SelectedItem.ToString(); // Gestionnaire d'événements pour mettre à jour maxTime
+            DataService ser = new DataService();
+            userID = ser.getUserIdFromName(usertransition);
+            tab.Controls.Add(comboBoxuser);
+
             string[] jours = { "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
             int yOffset = 20;
 
@@ -374,6 +485,7 @@ namespace SmartLockerWindows
                 UsedTime = 0
             };
             ser.AjouterContrainteSemaine(cr);
+            RefreshUI();
         }
 
         /// /////////////////////////////////////////////////////////////////////////////////////////
@@ -383,6 +495,11 @@ namespace SmartLockerWindows
 
         private void CreateGestionTab(TabPage tab)
         {
+            DataService ser = new DataService();
+            List<SmartLockerData.ContrainteHoraire> ch = ser.ObtenirToutesLesContraintesHoraires();
+            List<SmartLockerData.ContrainteJour> cj = ser.ObtenirToutesLesContraintesJours();
+            List<SmartLockerData.ContrainteSemaine> cs = ser.ObtenirToutesLesContraintesSemaines();
+
             // DataGridView pour afficher les applications
             DataGridView grid = new DataGridView
             {
@@ -396,14 +513,92 @@ namespace SmartLockerWindows
             grid.Columns.Add("Application", "Application");
             grid.Columns.Add("Type", "Type");
             grid.Columns.Add("Limitation", "Limitation");
-            grid.Columns.Add("Modification", "Modification");
 
-            // Ajouter pour chaque application une ligne dans le DataGridView
-            // il reste un peu de travail pour mettre les boutons dans la dernière colonne
-            //+ cree une fenetre pour modifier les valeurs
+            DataGridViewButtonColumn deleteButtonColumn = new DataGridViewButtonColumn
+            {
+                Name = "Supprimer",
+                Text = "Supprimer",
+                UseColumnTextForButtonValue = true
+            };
+            grid.Columns.Add(deleteButtonColumn);
+
+            // Ajouter les contraintes horaires
+            foreach (var contrainte in ch)
+            {
+                var app = applications.FirstOrDefault(a => a.Id == contrainte.AppId);
+                if (app != null)
+                {
+                    grid.Rows.Add(app.Name, "Horaire", $"Max: {contrainte.MaxTime}h, Bloqué: {contrainte.BlockTime}h");
+                }
+            }
+
+            // Ajouter les contraintes par jour
+            foreach (var contrainte in cj)
+            {
+                var app = applications.FirstOrDefault(a => a.Id == contrainte.AppId);
+                if (app != null)
+                {
+                    grid.Rows.Add(app.Name, "Jour", $"Max: {contrainte.MaxTime}h");
+                }
+            }
+
+            // Ajouter les contraintes par semaine
+            foreach (var contrainte in cs)
+            {
+                var app = applications.FirstOrDefault(a => a.Id == contrainte.AppId);
+                if (app != null)
+                {
+                    grid.Rows.Add(app.Name, "Semaine", $"Lun: {contrainte.MondayTime}h, Mar: {contrainte.TuesdayTime}h, Mer: {contrainte.WednesdayTime}h, Jeu: {contrainte.ThursdayTime}h, Ven: {contrainte.FridayTime}h, Sam: {contrainte.SaturdayTime}h, Dim: {contrainte.SundayTime}h");
+                }
+            }
+
+            // Gestion des événements de clic sur les boutons
+            grid.CellClick += (sender, e) =>
+            {
+                if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+                {
+                    var app = applications.FirstOrDefault(a => a.Name == grid.Rows[e.RowIndex].Cells["Application"].Value.ToString());
+                    if (app != null)
+                    {
+                        if (grid.Columns[e.ColumnIndex].Name == "Supprimer")
+                        {
+                            var result = MessageBox.Show($"Voulez-vous vraiment supprimer la contrainte pour l'application {app.Name}?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                            if (result == DialogResult.OK)
+                            {
+                                SupprimerContrainte(app.Id);
+                            }
+                        }
+                    }
+                }
+            };
 
             tab.Controls.Add(grid);
+        }
 
+        private void SupprimerContrainte(int appId)
+        {
+            DataService ser = new DataService();
+            var contrainteHoraire = ser.ObtenirContrainteHoraire(userID, appId);
+            if (contrainteHoraire != null)
+            {
+                ser.SupprimerContrainteHoraire(contrainteHoraire.Id);
+            }
+
+            var contrainteJour = ser.ObtenirContrainteJour(userID, appId);
+            if (contrainteJour != null)
+            {
+                ser.SupprimerContrainteJour(contrainteJour.Id);
+            }
+
+            var contrainteSemaine = ser.ObtenirContrainteSemaine(userID, appId);
+            if (contrainteSemaine != null)
+            {
+                ser.SupprimerContrainteSemaine(contrainteSemaine.Id);
+            }
+
+            MessageBox.Show("Contrainte supprimée avec succès.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            RefreshUI();
+            tabControl.SelectedTab = tabControl.TabPages.Cast<TabPage>().FirstOrDefault(tab => tab.Text == "Gestion");
         }
 
 
